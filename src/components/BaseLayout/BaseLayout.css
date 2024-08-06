@@ -1,0 +1,24 @@
+.root-div {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 426px) {
+    .root-div {
+        margin: 24px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .root-div {
+        margin: 30px;
+        gap: 10px;
+    }
+}
